@@ -1,0 +1,56 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .university-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .university-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .university-card p {
+    margin: 5px 0;
+  }
+  
+  .link {
+    color: blue;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .university-card {
+      padding: 8px;
+    }
+  
+    .university-card h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .university-card {
+      padding: 6px;
+    }
+  
+    .university-card h3 {
+      font-size: 1rem;
+    }
+  }
+  

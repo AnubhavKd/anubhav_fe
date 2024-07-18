@@ -1,0 +1,86 @@
+.university-detail-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.university-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.university-card-content {
+  padding: 20px;
+}
+
+.university-name {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.university-location {
+  display: flex;
+  align-items: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: #888;
+  margin-right: 10px;
+  min-width: 20px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.detail-text {
+  flex: 1;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.detail-value {
+  color: #666;
+}
+
+.university-website {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.university-card-actions {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 20px;
+  background-color: #f8f8f8;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link .icon {
+  margin-right: 5px;
+}
+
+.not-found-message {
+  color: #666;
+  margin-bottom: 20px;
+}

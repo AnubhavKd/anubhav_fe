@@ -1,0 +1,132 @@
+.university-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.university-list-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.search-container, .sort-container {
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-input, .sort-select {
+  width: 100%;
+  padding: 10px 30px 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-icon, .sort-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.university-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.university-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.university-card-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.university-card:hover {
+  transform: translateY(-5px);
+}
+
+.university-card-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.university-name {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.university-location {
+  display: flex;
+  align-items: center;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.location-icon {
+  margin-right: 5px;
+  color: #888;
+}
+
+.university-website {
+  display: inline-flex;
+  align-items: center;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.website-icon {
+  margin-right: 5px;
+}
+
+.university-card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #f8f8f8;
+}
+
+.view-button, .delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.view-button:hover {
+  color: #0066cc;
+}
+
+.delete-button:hover {
+  color: #cc0000;
+}
+
+.no-results {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
